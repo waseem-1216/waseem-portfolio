@@ -182,3 +182,62 @@ body {
 .secondary:hover {
   background: rgba(255,255,255,0.1);
 }
+
+.experience-container {
+  max-width: 950px;
+  margin: auto;
+}
+
+.experience-card {
+  background: rgba(255,255,255,0.05);
+  padding: 35px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border-left: 4px solid #00f5d4;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,245,212,0.15);
+}
+
+.exp-header h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.exp-header span {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.exp-subtitle {
+  margin: 15px 0;
+  color: #cbd5e1;
+}
+
+.experience-card ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  line-height: 1.7;
+  color: #e2e8f0;
+}
+
+.experience-card li {
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  margin-top: 20px;
+}
+
+.tech-stack span {
+  display: inline-block;
+  background: rgba(0,245,212,0.15);
+  color: #00f5d4;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin: 5px 5px 0 0;
+}
